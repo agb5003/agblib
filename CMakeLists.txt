@@ -9,5 +9,5 @@ target_include_directories(agbstring PUBLIC include)
 add_library(agbfile STATIC src/agbfile.c)
 target_include_directories(agbfile PUBLIC include)
 
-add_executable(test src/main.c)
-target_link_libraries(test PRIVATE agbstring agbfile)
+add_executable(agbcopy src/agbcopy.c)
+target_link_libraries(agbcopy PRIVATE agbstring agbfile)
