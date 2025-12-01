@@ -1,6 +1,6 @@
 # Building
 
-You will need CMake >3.14 and a UCRT C compiler.
+You will need CMake >3.14 and `gcc`.
 
 ```shell
 git clone https://github.com/agb503/agblib
